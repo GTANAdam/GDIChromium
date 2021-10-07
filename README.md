@@ -29,3 +29,18 @@ They've done this without any direct consent from users and with a reason like s
 
 ### Acknowledgments
 https://www.change.org/p/google-inc-bring-sharp-fonts-back-in-google-chrome-disable-directwrite
+
+
+## How to install
+1. Download the [latest version](https://github.com/GTANAdam/GDIChromium/releases/download/96.0.4664.0/GDIChromium_96.0.4664.0_x64.exe)
+2. Launch the executable
+3. Launch "Chromium" from your desktop
+
+## Upgrading from CentBrowser
+For those wishing to just seamless upgrade from CentBrowser, follow the instructions:
+
+1. Make sure CentBrowser and GDIChromium are not running
+2. Navigate to ``%LocalAppData%``
+3. Make sure you don't have Chromium folder in this directory
+4. Rename CentBrowser folder to Chromium
+5. Launch the new browser and voila! your stuff are there!
