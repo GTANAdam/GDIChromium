@@ -41,6 +41,6 @@ For those wishing to just seamless upgrade from CentBrowser, follow the instruct
 
 1. Make sure CentBrowser and GDIChromium are not running
 2. Navigate to ``%LocalAppData%``
-3. Remove UserData folder inside Chromium
-4. Copy UserData folder inside CentBrowser to Chromium
+3. Remove "User Data" folder inside Chromium
+4. Copy "User Data" folder inside CentBrowser to Chromium
 5. Launch the new browser and voila! your stuff are there!
