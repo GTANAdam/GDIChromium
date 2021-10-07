@@ -33,7 +33,7 @@ https://www.change.org/p/google-inc-bring-sharp-fonts-back-in-google-chrome-disa
 
 ## How to install
 1. Download the [latest version](https://github.com/GTANAdam/GDIChromium/releases/download/96.0.4664.0/GDIChromium_96.0.4664.0_x64.exe)
-2. Launch the executable
+2. Launch the executable and wait a little bit
 3. Launch "Chromium" from your desktop
 
 ## Upgrading from CentBrowser
