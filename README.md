@@ -7,6 +7,12 @@
     <img src="https://user-images.githubusercontent.com/25143912/136350008-42fba9a0-9511-46fb-8f43-6db57dd76bc6.png" width="500px"/>
 </p>
 
+## Note
+The binaries are provided for demonstrative purposes and should not be compared to full-featured browsers, the minimalistic approach of keeping it clear of additional features is intended. If you are only looking to disable direct write, the binaries will make you happy and will avoid you from wasting a lot of time on slightly complex chromium compilation process. it takes 2-4 hours on a server with 2x E5-2690v2 to compile the binaries, not to mention cloning the +20GB repository and getting the flags correctly set up. 
+
+The sole purpose of using these patches/this browser is for it to be used in combination with MacType or alternative. 
+Let me rephrase and simplify, the fonts will look horrible without using MacType. don't say I didn't warn you! :)
+
 ## Synopsis
 On Windows, Google Chrome has supported two standards for font rendering. Font rendering is the actual process that leads to display text on our screens. One of the font rendering modes is called GDI, the other is DirectWrite. DirectWrite is default since version 37 (released in 2014). Since then Google has offered disabling it in case someone wanted to use GDI instead. This could be done by enabling the flag #disable-direct-write at chrome://flags. When DirectWrite was disabled, Chrome used the GDI rendering.
 
