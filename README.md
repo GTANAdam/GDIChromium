@@ -1,3 +1,13 @@
+<br />
+<div align="center">
+  <a href="https://www.standwithukraine.dev">
+    <img src="https://github.com/vladyslavnUA/stand-with-ukraine/raw/main/src/dove.png" class="this" alt="Stand With Ukraine" style="width: 60%;">
+  </a>
+  
+
+  <h3 align="center">Stand With Ukraine</h3>
+</div>
+
 # GDIChromium
 > GDI font rendering re-implementation for Chromium, which looks much better than DirectWrite.
 > Allowing a seamless usage of Font substitution applications such as [MacType](https://github.com/snowie2000/mactype).
