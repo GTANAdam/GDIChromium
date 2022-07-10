@@ -11,6 +11,19 @@ index 20f93edf5e294..8fee85a5f2be4 100644
  // Enables pre-launch Code Integrity Guard (CIG) for Chrome network service
  // process, when running on Windows 10 1511 and above. This has no effect if
  // NetworkServiceSandbox feature is disabled. See
+diff --git a/chrome/browser/signin/account_consistency_mode_manager.cc b/chrome/browser/signin/account_consistency_mode_manager.cc
+index 77f0d835cd436..d7026516b98ab 100644
+--- a/chrome/browser/signin/account_consistency_mode_manager.cc
++++ b/chrome/browser/signin/account_consistency_mode_manager.cc
+@@ -112,7 +112,7 @@ AccountConsistencyModeManager::~AccountConsistencyModeManager() {}
+ // static
+ void AccountConsistencyModeManager::RegisterProfilePrefs(
+     user_prefs::PrefRegistrySyncable* registry) {
+-  registry->RegisterBooleanPref(prefs::kSigninAllowedOnNextStartup, true);
++  registry->RegisterBooleanPref(prefs::kSigninAllowedOnNextStartup, false);
+ }
+ 
+ // static
 diff --git a/content/browser/renderer_host/dwrite_font_lookup_table_builder_win.cc b/content/browser/renderer_host/dwrite_font_lookup_table_builder_win.cc
 index 9c7eae8d652c0..0c29375cae564 100644
 --- a/content/browser/renderer_host/dwrite_font_lookup_table_builder_win.cc
